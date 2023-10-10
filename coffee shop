@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>COFFEE SHOP</title>
+
+<style>
+  body
+  {
+    background-color: #130e09;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-image:url("coffee.jpg");
+    height: 200px;
+    width: 50%;
+    background-repeat: no-repeat;
+  }
+  .header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+  h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
+  /* .coffeediv{
+  
+  /* min-height: 75%; */
+
+  
+  /* background-position: center;
+  background-size: cover;
+  background-image: <img src="coffee.jpg">;
+  min-height: 75%; */
+</style>
+<div class=".header">
+  <!-- <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3"> -->
+      <a href="#" >HOME</a>
+    </div>
+    <div >
+      <a href="#about" >ABOUT</a>
+    </div>
+    <div >
+      <a href="#menu" >MENU</a>
+    </div>
+    <div >
+      <a href="#where" >WHERE</a>
+    </div>
+  </div>
+</div>
+<header class=".maindiv" id="home">
+  <div class="coffee-display-bottomleft coffee-center coffee-padding-large coffee-hide-small">
+    <span class="coffee-tag">Open from 10am to 11pm</span>
+  </div>
+  <div class="coffee-display-middle coffee-center">
+    <span class="coffee-text-white" style="font-size:90px">The<br>Kitabi<br>Cafe</span>
+  </div>
+  <div class="coffee-display-bottomright coffee-center coffee-padding-large">
+    <span class="coffee-text-white">15th Street, KP ,Pune. </span>
+  </div>
+</header>
+
+<div class="coffee-con" id="about">
+  <div class="coffee-content" style="max-width:700px">
+    <h5 class="coffee-center coffee-padding-64"><span class="coffee-tag coffee-wide">ABOUT THE CAFE</span></h5>
+    <p>The Cafe was founded in Pune by Mr.Ghosh in remeberece of his late daughter who loved to read books.He wanted to create a space where he could combine both his coffee making skills and his daugters love for books. </p>
+    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <div class="coffee-panel coffee-leftbar coffee-light-grey">
+      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+      <p>Chef, Coffeeist and Owner: Baburai Ghosh</p>
+    
+</div>
+
+<div class="coffee-con" id="menu">
+  <div class="coffee-content" style="max-width:700px">
+ 
+    <h5 class="coffee-center coffee-padding-48"><span class="coffee-tag coffee-wide">THE MENU</span></h5>
+  
+    <!-- <div class="coffee-row coffee-center coffee-card coffee-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="coffee-col s6 tablink">Eat</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="coffee-col s6 tablink">Drink</div>
+      </a>
+    </div> -->
+
+    <div id="Eat" class="coffee-container menu coffee-padding-48 coffee-card">
+      <h4>Bread Basket</h4>
+      <p class="coffee-text-grey">Assortment of fresh baked fruit breads and muffins Rs.250</p><br>
+    
+      <h4>Honey Almond Granola with Fruits</h4>
+      <p class="coffee-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates Rs.200</p><br>
+    
+      <h4>Belgian Waffle</h4>
+      <p class="coffee-text-grey">Vanilla flavored batter with malted flour Rs.150</p><br>
+    
+      <h4>Scrambled eggs</h4>
+      <p class="coffee-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions Rs.100</p><br>
+    
+      <h4>Blueberry Pancakes</h4>
+      <p class="coffee-text-grey">With syrup, butter and lots of berries Rs.120</p>
+    </div>
+
+    <div id="Drinks" class="coffee-container menu coffee-padding-48 coffee-card">
+      <h4>Coffee</h4>
+      <p class="coffee-text-grey">Regular coffee Rs.50</p><br>
+    
+      <h4>Chocolato</h4>
+      <p class="coffee-text-grey">Chocolate espresso with milk Rs.80</p><br>
+    
+      <h4>Corretto</h4>
+      <p class="coffee-text-grey">Whiskey and coffee Rs.140</p><br>
+    
+      <h4>Iced tea</h4>
+      <p class="coffee-text-grey">Hot tea, except not hot Rs.60</p><br>
+    
+      <h4>Soda</h4>
+      <p class="coffee-text-grey">Coke, Sprite, Fanta, etc. 50</p>
+    </div>  
+  </div>
+</div>
+</div>
+<!-- <img src="coffee.jpg" style="width:100%;max-width:1000px" class="coffee-margin-top"> -->
+<p><strong>Opening hours:</strong> everyday from 10am to 11pm.</p>
+<p><strong>Address:</strong> 15th Street, KP ,Pune</p>
+</div>
